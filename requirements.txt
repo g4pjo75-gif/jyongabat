@@ -3,10 +3,10 @@ flask==3.0.0
 gunicorn==21.2.0
 
 # === Data & Finance ===
-yfinance==0.2.36
-pandas==2.1.4
-numpy==1.26.3
-pykrx==1.0.45
+yfinance>=0.2.40
+pandas>=2.2.3
+numpy>=1.26.4
+pykrx>=1.0.45
 
 # === AI/LLM ===
 google-generativeai==0.8.0
