@@ -15,9 +15,10 @@ frontend/.next/
 frontend/out/
 
 # Data
-data/*.json
-!data/market_gate_latest.json
-data/*.csv
+# data/*.json
+# !data/market_gate_latest.json
+# data/*.csv
+# (All data files will be included as requested by the user)
 
 # OS
 .DS_Store

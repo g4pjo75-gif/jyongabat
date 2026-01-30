@@ -1,0 +1,26 @@
+{
+  "signals": [
+    {
+      "ticker": "005930",
+      "name": "삼성전자",
+      "score": 75,
+      "fundamentals": {
+        "error": "\"None of [Index(['종가', '시가총액', '거래량', '거래대금'], dtype='str')] are in the [columns]\""
+      },
+      "news": [],
+      "gemini_recommendation": null
+    },
+    {
+      "ticker": "000660",
+      "name": "SK하이닉스",
+      "score": 70,
+      "fundamentals": {
+        "error": "\"None of [Index(['종가', '시가총액', '거래량', '거래대금'], dtype='str')] are in the [columns]\""
+      },
+      "news": [],
+      "gemini_recommendation": null
+    }
+  ],
+  "generated_at": "2026-01-25T12:26:52.446101",
+  "count": 2
+}

@@ -1,0 +1,1909 @@
+{
+  "date": "2026-01-26",
+  "total_candidates": 30,
+  "filtered_count": 30,
+  "signals": [
+    {
+      "stock_code": "028050",
+      "stock_name": "삼성E&A",
+      "market": "KOSPI",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:23:43.187513",
+      "grade": "S",
+      "score": {
+        "news": 3,
+        "volume": 2,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "실적 호조, 신사업 기대감, 수주 가시화 임박 등 긍정적인 내용이 복합적으로 나타나며 주가 강세를 보이고 있어 높은 호재 강도로 판단됨.",
+        "total": 9
+      },
+      "checklist": {
+        "has_news": true,
+        "news_sources": [
+          "이데일리",
+          "아시아경제",
+          "조선비즈"
+        ],
+        "is_new_high": false,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "아크릴 \"'GPU베이스' 중심으로 피지컬 AI 시장 선도할 것\"[코스닥...",
+          "source": "이데일리",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0006207293&office_id=018&code=028050&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "[특징주]삼성E&A, 실적 호조·신사업 기대감에 7%대 강세",
+          "source": "아시아경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005711832&office_id=277&code=028050&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "[특징주] “수주 가시화 임박”… 증권사 호평에 삼성E&A 10%대 ‘...",
+          "source": "조선비즈",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001138328&office_id=366&code=028050&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 28850.0,
+      "entry_price": 28850.0,
+      "stop_price": 27984.5,
+      "target_price": 30292.5,
+      "r_value": 299463.0,
+      "position_size": 9982100.0,
+      "quantity": 346,
+      "r_multiplier": 1.5,
+      "trading_value": 110873435000,
+      "change_pct": 6.85,
+      "status": "pending",
+      "created_at": "2026-01-26T22:23:43.187518"
+    },
+    {
+      "stock_code": "298380",
+      "stock_name": "에이비엘바이오",
+      "market": "KOSDAQ",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:24:15.655649",
+      "grade": "S",
+      "score": {
+        "news": 0,
+        "volume": 3,
+        "chart": 2,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 45\n}\n]",
+        "total": 8
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "TV조선",
+          "한국경제TV",
+          "경향신문"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "코스닥 7% 폭등해 '천스닥' 안착…기관 2.6조 '폭풍 매수'",
+          "source": "TV조선",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000586346&office_id=448&code=298380&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "코스닥 25년만에 최고치 마감",
+          "source": "한국경제TV",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001239299&office_id=215&code=298380&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "4년 만의 ‘1000스닥’…25년5개월 만에 ‘1064.41’ 최고점",
+          "source": "경향신문",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003423909&office_id=032&code=298380&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 241000.0,
+      "entry_price": 241000.0,
+      "stop_price": 233770.0,
+      "target_price": 253050.0,
+      "r_value": 296430.0,
+      "position_size": 9881000.0,
+      "quantity": 41,
+      "r_multiplier": 1.5,
+      "trading_value": 916761108000,
+      "change_pct": 21.72,
+      "status": "pending",
+      "created_at": "2026-01-26T22:24:15.655658"
+    },
+    {
+      "stock_code": "010130",
+      "stock_name": "고려아연",
+      "market": "KOSPI",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:23:46.355927",
+      "grade": "A",
+      "score": {
+        "news": 1,
+        "volume": 2,
+        "chart": 2,
+        "candle": 1,
+        "consolidation": 0,
+        "supply": 1,
+        "llm_reason": "최윤범 회장의 다보스 포럼에서의 핵심광물 공급망 관련 제안이 주된 내용이며, 이는 장기적인 관점에서 긍정적이지만, 단기적인 주가에 미치는 영향은 미미하다고 판단됨. 따라서 단순/중립적 소식으로 분류하여 1점을 부여함.",
+        "total": 7
+      },
+      "checklist": {
+        "has_news": true,
+        "news_sources": [
+          "한경비즈니스",
+          "머니S",
+          "지디넷코리아"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "고려아연 최윤범, 다보스서 '핵심광물 통합 공급망' 시스템 구축 제안",
+          "source": "한경비즈니스",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000101530&office_id=050&code=010130&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "최윤범 고려아연 회장, 다보스포럼서 '핵심광물 공급망' 방향성 제시",
+          "source": "머니S",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001126340&office_id=417&code=010130&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "고려아연 최윤범, 다보스포럼서 ‘핵심광물 공급망’ 방향성 제시",
+          "source": "지디넷코리아",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002407557&office_id=092&code=010130&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 1807000.0,
+      "entry_price": 1807000.0,
+      "stop_price": 1752790.0,
+      "target_price": 1897350.0,
+      "r_value": 216840.0,
+      "position_size": 7228000.0,
+      "quantity": 4,
+      "r_multiplier": 1.0,
+      "trading_value": 293408011000,
+      "change_pct": 14.37,
+      "status": "pending",
+      "created_at": "2026-01-26T22:23:46.355932"
+    },
+    {
+      "stock_code": "259960",
+      "stock_name": "크래프톤",
+      "market": "KOSPI",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:23:43.188128",
+      "grade": "A",
+      "score": {
+        "news": 2,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "크래프톤이 주한 인도 대사와 기술 협력 및 투자 확대 방안을 논의한 것은 인도 시장에서의 성장 가능성을 높이는 긍정적인 신호로 해석될 수 있으며, 향후 실적 개선에 대한 기대감을 불러일으킬 수 있다.",
+        "total": 7
+      },
+      "checklist": {
+        "has_news": true,
+        "news_sources": [
+          "스포츠월드",
+          "중앙일보",
+          "데일리e스포츠"
+        ],
+        "is_new_high": false,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": false
+      },
+      "news_items": [
+        {
+          "title": "크래프톤, 주한인도대사와 인도 기술 협력 및 투자 확대 방안 논의",
+          "source": "스포츠월드",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000733802&office_id=396&code=259960&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "크래프톤, 주한인도대사와 기술 협력·투자 확대 논의",
+          "source": "중앙일보",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003499054&office_id=025&code=259960&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "크래프톤, 주한인도대사와 투자 확대 방안 논의",
+          "source": "데일리e스포츠",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000191535&office_id=347&code=259960&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 255500.0,
+      "entry_price": 255500.0,
+      "stop_price": 247835.0,
+      "target_price": 268275.0,
+      "r_value": 245280.0,
+      "position_size": 8176000.0,
+      "quantity": 32,
+      "r_multiplier": 1.0,
+      "trading_value": 85802521000,
+      "change_pct": 7.13,
+      "status": "pending",
+      "created_at": "2026-01-26T22:23:43.188134"
+    },
+    {
+      "stock_code": "003670",
+      "stock_name": "포스코퓨처엠",
+      "market": "KOSPI",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:23:43.187834",
+      "grade": "A",
+      "score": {
+        "news": 1,
+        "volume": 2,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "로봇 테마 상승에 따른 2차전지 관련주의 기대감이 일부 반영되었으나, 뉴스 내용이 엇갈린 시선을 보이고 있어 긍정적 효과가 제한적일 수 있음. 따라서 단순/중립적 소식으로 판단.",
+        "total": 7
+      },
+      "checklist": {
+        "has_news": true,
+        "news_sources": [
+          "한국경제",
+          "한국경제",
+          "머니S"
+        ],
+        "is_new_high": false,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "로봇 테마 올라탄 2차전지, 전망은 '극과극'",
+          "source": "한국경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005242277&office_id=015&code=003670&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "로봇 테마 올라탄 2차전지株 '엇갈린 시선'",
+          "source": "한국경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005242129&office_id=015&code=003670&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "[체크!ETF] '피지컬 AI' 열풍에 '이차전지 ETF' 웃었다",
+          "source": "머니S",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001126506&office_id=417&code=003670&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 228500.0,
+      "entry_price": 228500.0,
+      "stop_price": 221645.0,
+      "target_price": 239925.0,
+      "r_value": 246780.0,
+      "position_size": 8226000.0,
+      "quantity": 36,
+      "r_multiplier": 1.0,
+      "trading_value": 239694215000,
+      "change_pct": 6.78,
+      "status": "pending",
+      "created_at": "2026-01-26T22:23:43.187839"
+    },
+    {
+      "stock_code": "097230",
+      "stock_name": "HJ중공업",
+      "market": "KOSPI",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:23:43.186754",
+      "grade": "A",
+      "score": {
+        "news": 2,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "HJ중공업의 영업이익이 전년 대비 825% 증가한 것은 긍정적인 실적 개선으로 판단됩니다. 이는 투자 심리를 자극하고 주가 상승에 기여할 수 있는 요인입니다.",
+        "total": 7
+      },
+      "checklist": {
+        "has_news": true,
+        "news_sources": [
+          "파이낸셜뉴스",
+          "디지털데일리",
+          "조선비즈"
+        ],
+        "is_new_high": false,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": false
+      },
+      "news_items": [
+        {
+          "title": "축포 쏜 K조선..영업익 825% 증가도",
+          "source": "파이낸셜뉴스",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005468359&office_id=014&code=097230&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "HJ중공업, 작년 영업이익 670억원…전년비 825%↑",
+          "source": "디지털데일리",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002216191&office_id=138&code=097230&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "HJ중공업, 지난해 영업익 670억원… 전년比 824.8% 증가",
+          "source": "조선비즈",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001138443&office_id=366&code=097230&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 25350.0,
+      "entry_price": 25350.0,
+      "stop_price": 24589.5,
+      "target_price": 26617.5,
+      "r_value": 249444.0,
+      "position_size": 8314800.0,
+      "quantity": 328,
+      "r_multiplier": 1.0,
+      "trading_value": 75874197750,
+      "change_pct": 6.74,
+      "status": "pending",
+      "created_at": "2026-01-26T22:23:43.186763"
+    },
+    {
+      "stock_code": "450080",
+      "stock_name": "에코프로머티",
+      "market": "KOSPI",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:23:43.187147",
+      "grade": "A",
+      "score": {
+        "news": 2,
+        "volume": 2,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 0,
+        "supply": 1,
+        "llm_reason": "에코프로머티는 양극재 관련주로서 로봇 산업 수혜를 받는 테마 상승과 코스닥 시장의 전반적인 상승세에 힘입어 긍정적인 영향을 받을 것으로 예상됩니다.",
+        "total": 7
+      },
+      "checklist": {
+        "has_news": true,
+        "news_sources": [
+          "머니투데이",
+          "머니투데이",
+          "한국경제"
+        ],
+        "is_new_high": false,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "로봇 수혜주로 불붙은 배터리…K양극재 관련株 '쑥'",
+          "source": "머니투데이",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005309580&office_id=008&code=450080&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "로봇 수혜주로 다시 보는 K양극재, 주가 '충전'",
+          "source": "머니투데이",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005309356&office_id=008&code=450080&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "'오천피'→'천스닥' 대이동…코스닥, 닷컴 버블 이후 최고치 등극",
+          "source": "한국경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005242181&office_id=015&code=450080&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 65600.0,
+      "entry_price": 65600.0,
+      "stop_price": 63632.0,
+      "target_price": 68880.0,
+      "r_value": 249936.0,
+      "position_size": 8331200.0,
+      "quantity": 127,
+      "r_multiplier": 1.0,
+      "trading_value": 101074905600,
+      "change_pct": 6.32,
+      "status": "pending",
+      "created_at": "2026-01-26T22:23:43.187152"
+    },
+    {
+      "stock_code": "023590",
+      "stock_name": "다우기술",
+      "market": "KOSPI",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:23:43.188452",
+      "grade": "A",
+      "score": {
+        "news": 1,
+        "volume": 1,
+        "chart": 2,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "다우오피스 드라이브 출시 관련 뉴스가 반복적으로 보도되고 있지만, ERP 뱅킹 관련 뉴스는 다우기술에 직접적인 영향을 미치는 내용인지 불분명하므로, 전반적으로 중립적인 소식으로 판단됨.",
+        "total": 7
+      },
+      "checklist": {
+        "has_news": true,
+        "news_sources": [
+          "지디넷코리아",
+          "뉴시스",
+          "전자신문"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": false
+      },
+      "news_items": [
+        {
+          "title": "\"조직 협업, 파일 관리부터\"…다우기술, '다우오피스 드라이브' 출시",
+          "source": "지디넷코리아",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002405873&office_id=092&code=023590&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "다우기술, 다우오피스 '드라이브' 출시…조직 파일 관리 강화",
+          "source": "뉴시스",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0013707746&office_id=003&code=023590&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "새해 'ERP 뱅킹' 급부상… 데이터 기반 금융 서비스 대거 등장",
+          "source": "전자신문",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003385982&office_id=030&code=023590&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 44000.0,
+      "entry_price": 44000.0,
+      "stop_price": 42680.0,
+      "target_price": 46200.0,
+      "r_value": 249480.0,
+      "position_size": 8316000.0,
+      "quantity": 189,
+      "r_multiplier": 1.0,
+      "trading_value": 8815092000,
+      "change_pct": 5.39,
+      "status": "pending",
+      "created_at": "2026-01-26T22:23:43.188457"
+    },
+    {
+      "stock_code": "006400",
+      "stock_name": "삼성SDI",
+      "market": "KOSPI",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:23:49.314613",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 3,
+        "chart": 2,
+        "candle": 1,
+        "consolidation": 0,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 10\n}\n]",
+        "total": 7
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "매일경제",
+          "한국경제",
+          "전자신문"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "이재용 회장, ‘이건희 컬렉션’ 참석차 미국행…‘문화보국’ 정신 ...",
+          "source": "매일경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005627625&office_id=009&code=006400&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "이재용, '이건희 컬렉션' 위해 출국…삼성 총수 일가 총출동",
+          "source": "한국경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005242313&office_id=015&code=006400&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "이재용 삼성전자 회장, '이건희 컬렉션' 참석차 美 출국",
+          "source": "전자신문",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003393377&office_id=030&code=006400&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 387000.0,
+      "entry_price": 387000.0,
+      "stop_price": 375390.0,
+      "target_price": 406350.0,
+      "r_value": 243810.0,
+      "position_size": 8127000.0,
+      "quantity": 21,
+      "r_multiplier": 1.0,
+      "trading_value": 637728786000,
+      "change_pct": 3.75,
+      "status": "pending",
+      "created_at": "2026-01-26T22:23:49.314621"
+    },
+    {
+      "stock_code": "047810",
+      "stock_name": "한국항공우주",
+      "market": "KOSPI",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:23:49.320453",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 2,
+        "chart": 2,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 10\n}\n]",
+        "total": 7
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "뉴스1",
+          "더팩트",
+          "데일리안"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "실적 시즌 개막…반도체·방산 '쾌청' 배터리·석화 '흐림'",
+          "source": "뉴스1",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008735221&office_id=421&code=047810&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "[단독] 한국잡월드, 이사장 업추비 유용·직장 내 괴롭힘 의혹…노동.....",
+          "source": "더팩트",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000466152&office_id=629&code=047810&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "내달 WDS에 쏠린 눈…K-방산 중동 공략 가속",
+          "source": "데일리안",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003052230&office_id=119&code=047810&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 167400.0,
+      "entry_price": 167400.0,
+      "stop_price": 162378.0,
+      "target_price": 175770.0,
+      "r_value": 246078.0,
+      "position_size": 8202600.0,
+      "quantity": 49,
+      "r_multiplier": 1.0,
+      "trading_value": 138749322600,
+      "change_pct": 2.76,
+      "status": "pending",
+      "created_at": "2026-01-26T22:23:49.320461"
+    },
+    {
+      "stock_code": "140410",
+      "stock_name": "메지온",
+      "market": "KOSDAQ",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:24:13.978755",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 2,
+        "chart": 2,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 46\n}\n]",
+        "total": 7
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "TV조선",
+          "한겨레",
+          "디지털데일리"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "코스닥 7% 폭등해 '천스닥' 안착…기관 2.6조 '폭풍 매수'",
+          "source": "TV조선",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000586346&office_id=448&code=140410&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "정책 기대감에 ‘천스닥’…‘개인 단타시장’ 한계 넘으려면 실적 뒷...",
+          "source": "한겨레",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002788404&office_id=028&code=140410&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "코스닥 7% 급등, '천스닥' 돌파… 닷컴버블 이후 최고치",
+          "source": "디지털데일리",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002216206&office_id=138&code=140410&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 153000.0,
+      "entry_price": 153000.0,
+      "stop_price": 148410.0,
+      "target_price": 160650.0,
+      "r_value": 247860.0,
+      "position_size": 8262000.0,
+      "quantity": 54,
+      "r_multiplier": 1.0,
+      "trading_value": 141121233000,
+      "change_pct": 29.55,
+      "status": "pending",
+      "created_at": "2026-01-26T22:24:13.978780"
+    },
+    {
+      "stock_code": "277810",
+      "stock_name": "레인보우로보틱스",
+      "market": "KOSDAQ",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:24:13.979485",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 3,
+        "chart": 2,
+        "candle": 1,
+        "consolidation": 0,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 46\n}\n]",
+        "total": 7
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "연합뉴스TV",
+          "연합뉴스TV",
+          "TV조선"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "코스닥 '천스닥' 달성…7%대 급등에 사이드카 발동",
+          "source": "연합뉴스TV",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000826983&office_id=422&code=277810&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "코스닥 1,000선 돌파…'닷컴버블' 후 25년여만 최고",
+          "source": "연합뉴스TV",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000826970&office_id=422&code=277810&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "코스닥 7% 폭등해 '천스닥' 안착…기관 2.6조 '폭풍 매수'",
+          "source": "TV조선",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000586346&office_id=448&code=277810&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 679000.0,
+      "entry_price": 679000.0,
+      "stop_price": 658630.0,
+      "target_price": 712950.0,
+      "r_value": 244440.0,
+      "position_size": 8148000.0,
+      "quantity": 12,
+      "r_multiplier": 1.0,
+      "trading_value": 1216151468000,
+      "change_pct": 25.97,
+      "status": "pending",
+      "created_at": "2026-01-26T22:24:13.979513"
+    },
+    {
+      "stock_code": "086520",
+      "stock_name": "에코프로",
+      "market": "KOSDAQ",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:24:13.066048",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 3,
+        "chart": 2,
+        "candle": 0,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 46\n}\n]",
+        "total": 7
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "TV조선",
+          "한국경제TV",
+          "경향신문"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "코스닥 7% 폭등해 '천스닥' 안착…기관 2.6조 '폭풍 매수'",
+          "source": "TV조선",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000586346&office_id=448&code=086520&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "코스닥 25년만에 최고치 마감",
+          "source": "한국경제TV",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001239299&office_id=215&code=086520&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "4년 만의 ‘1000스닥’…25년5개월 만에 ‘1064.41’ 최고점",
+          "source": "경향신문",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003423909&office_id=032&code=086520&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 130200.0,
+      "entry_price": 130200.0,
+      "stop_price": 126294.0,
+      "target_price": 136710.0,
+      "r_value": 249984.0,
+      "position_size": 8332800.0,
+      "quantity": 64,
+      "r_multiplier": 1.0,
+      "trading_value": 1914985375800,
+      "change_pct": 22.95,
+      "status": "pending",
+      "created_at": "2026-01-26T22:24:13.066058"
+    },
+    {
+      "stock_code": "247540",
+      "stock_name": "에코프로비엠",
+      "market": "KOSDAQ",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:24:15.654933",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 3,
+        "chart": 2,
+        "candle": 0,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 45\n}\n]",
+        "total": 7
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "한국경제TV",
+          "동아일보",
+          "파이낸셜뉴스"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "코스닥 25년만에 최고치 마감",
+          "source": "한국경제TV",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001239299&office_id=215&code=247540&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "‘오천피’ 이어 ‘천스닥’…바이오·배터리·로봇이 끌어올렸다",
+          "source": "동아일보",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003692480&office_id=020&code=247540&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "오천피 이어 ‘천스닥’ 시대… 4년만에 1000 돌파",
+          "source": "파이낸셜뉴스",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005468522&office_id=014&code=247540&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 209000.0,
+      "entry_price": 209000.0,
+      "stop_price": 202730.0,
+      "target_price": 219450.0,
+      "r_value": 244530.0,
+      "position_size": 8151000.0,
+      "quantity": 39,
+      "r_multiplier": 1.0,
+      "trading_value": 891503921000,
+      "change_pct": 19.91,
+      "status": "pending",
+      "created_at": "2026-01-26T22:24:15.654961"
+    },
+    {
+      "stock_code": "950160",
+      "stock_name": "코오롱티슈진",
+      "market": "KOSDAQ",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:24:21.851043",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 2,
+        "chart": 2,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 38\n}\n]",
+        "total": 7
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "세계일보",
+          "더팩트",
+          "동아일보"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "오천피 이어… 4년 만에 ‘천스닥’도 뚫었다",
+          "source": "세계일보",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004100635&office_id=022&code=950160&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "4년 만에 '천스닥' 복귀…코스닥 폭주에 사이드카까지 발동",
+          "source": "더팩트",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000466201&office_id=629&code=950160&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "4년만에 ‘천스닥’…코스닥 장중 1000선 돌파",
+          "source": "동아일보",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003692306&office_id=020&code=950160&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 93900.0,
+      "entry_price": 93900.0,
+      "stop_price": 91083.0,
+      "target_price": 98595.0,
+      "r_value": 247896.0,
+      "position_size": 8263200.0,
+      "quantity": 88,
+      "r_multiplier": 1.0,
+      "trading_value": 124166599200,
+      "change_pct": 13.0,
+      "status": "pending",
+      "created_at": "2026-01-26T22:24:21.851051"
+    },
+    {
+      "stock_code": "240810",
+      "stock_name": "원익IPS",
+      "market": "KOSDAQ",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:24:32.526323",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 2,
+        "chart": 2,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 27\n}\n]",
+        "total": 7
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "머니투데이",
+          "서울신문",
+          "서울신문"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "외인·기관 순매수세에 '천스닥' 시대 '활짝'",
+          "source": "머니투데이",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005309498&office_id=008&code=240810&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "[서울데이터랩]레인보우로보틱스 27.64% 급등하며 코스닥 주도",
+          "source": "서울신문",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003611669&office_id=081&code=240810&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "[서울데이터랩]현대무벡스 8.09% 하락 두드러져",
+          "source": "서울신문",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003611259&office_id=081&code=240810&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 85200.0,
+      "entry_price": 85200.0,
+      "stop_price": 82644.0,
+      "target_price": 89460.0,
+      "r_value": 247932.0,
+      "position_size": 8264400.0,
+      "quantity": 97,
+      "r_multiplier": 1.0,
+      "trading_value": 144024550800,
+      "change_pct": 11.23,
+      "status": "pending",
+      "created_at": "2026-01-26T22:24:32.526330"
+    },
+    {
+      "stock_code": "454910",
+      "stock_name": "두산로보틱스",
+      "market": "KOSPI",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:23:42.650790",
+      "grade": "A",
+      "score": {
+        "news": 1,
+        "volume": 2,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 0,
+        "supply": 1,
+        "llm_reason": "코스닥 시장 자체의 활황세가 두산로보틱스에 간접적인 긍정적 영향을 줄 수 있으나, 직접적인 호재로 보기 어렵습니다. 뉴스 내용이 두산로보틱스와 직접적인 관련이 없으므로 중립적인 평가를 내립니다.",
+        "total": 6
+      },
+      "checklist": {
+        "has_news": true,
+        "news_sources": [
+          "매일경제",
+          "한국경제",
+          "서울신문"
+        ],
+        "is_new_high": false,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "야수가 돼버린 개미들…코스닥지수 ETF에 하루 1조 베팅",
+          "source": "매일경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005627632&office_id=009&code=454910&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "'오천피'→'천스닥' 대이동…코스닥, 닷컴 버블 이후 최고치 등극",
+          "source": "한국경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005242181&office_id=015&code=454910&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "[서울데이터랩]금일 코스피 거래량 1위 삼성전자 거래대금 무려 18조 ...",
+          "source": "서울신문",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003611671&office_id=081&code=454910&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 119900.0,
+      "entry_price": 119900.0,
+      "stop_price": 116303.0,
+      "target_price": 125895.0,
+      "r_value": 248193.0,
+      "position_size": 8273100.0,
+      "quantity": 69,
+      "r_multiplier": 1.0,
+      "trading_value": 382880986400,
+      "change_pct": 5.08,
+      "status": "pending",
+      "created_at": "2026-01-26T22:23:42.650807"
+    },
+    {
+      "stock_code": "066970",
+      "stock_name": "엘앤에프",
+      "market": "KOSPI",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:23:53.503122",
+      "grade": "A",
+      "score": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "뉴스 내용들이 엘앤에프에 대한 직접적인 호재를 명확히 나타내고 있지 않음. 이차전지 ETF 상승, 일부 투자자 매수, 실적 발표 기대감 등 간접적인 영향만 언급되어 긍정적이지만, 호재 강도는 높지 않다고 판단됨.",
+        "total": 6
+      },
+      "checklist": {
+        "has_news": true,
+        "news_sources": [
+          "머니S",
+          "한국경제",
+          "디지털데일리"
+        ],
+        "is_new_high": false,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": false
+      },
+      "news_items": [
+        {
+          "title": "[체크!ETF] '피지컬 AI' 열풍에 '이차전지 ETF' 웃었다",
+          "source": "머니S",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001126506&office_id=417&code=066970&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "자산가·투자고수들, 한화오션·코리아써키트 등 집중매수",
+          "source": "한국경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005241669&office_id=015&code=066970&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "[위클리배터리] 다가온 작년 4분기 실적 발표, 올해 '반전' 키워드에...",
+          "source": "디지털데일리",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002216081&office_id=138&code=066970&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 125800.0,
+      "entry_price": 125800.0,
+      "stop_price": 122026.0,
+      "target_price": 132090.0,
+      "r_value": 249084.0,
+      "position_size": 8302800.0,
+      "quantity": 66,
+      "r_multiplier": 1.0,
+      "trading_value": 94368995800,
+      "change_pct": 4.66,
+      "status": "pending",
+      "created_at": "2026-01-26T22:23:53.503132"
+    },
+    {
+      "stock_code": "377300",
+      "stock_name": "카카오페이",
+      "market": "KOSPI",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:23:49.316604",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 3,
+        "chart": 1,
+        "candle": 0,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 10\n}\n]",
+        "total": 6
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "매일경제",
+          "매일경제",
+          "뉴스1"
+        ],
+        "is_new_high": false,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "[단독] 신한·하나금융에 삼성까지 의기투합…‘갤럭시 코인 결제’ ...",
+          "source": "매일경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005627619&office_id=009&code=377300&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "금융지주·삼성, K코인 국가대표 뜬다…'갤럭시 코인 결제' 성큼",
+          "source": "매일경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005627568&office_id=009&code=377300&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "'스테이블코인 수혜' 카이아, 주말새 2배 급등…상승분 일부 반납[특징...",
+          "source": "뉴스1",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008735475&office_id=421&code=377300&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 70900.0,
+      "entry_price": 70900.0,
+      "stop_price": 68773.0,
+      "target_price": 74445.0,
+      "r_value": 248859.0,
+      "position_size": 8295300.0,
+      "quantity": 117,
+      "r_multiplier": 1.0,
+      "trading_value": 554532155200,
+      "change_pct": 4.57,
+      "status": "pending",
+      "created_at": "2026-01-26T22:23:49.316627"
+    },
+    {
+      "stock_code": "039490",
+      "stock_name": "키움증권",
+      "market": "KOSPI",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:23:48.828808",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 1,
+        "chart": 2,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 10\n}\n]",
+        "total": 6
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "한국경제",
+          "세계일보",
+          "뉴스1"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": false
+      },
+      "news_items": [
+        {
+          "title": "'삼전·하닉·현차' 오늘은 쉬어갔다…29일 중간 점검 '디데이' [분석...",
+          "source": "한국경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005242409&office_id=015&code=039490&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "환율 비상인데… 외화 예탁금 이자 더 주는 증권사",
+          "source": "세계일보",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004100685&office_id=022&code=039490&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "\"환율 방어 비상인데\"…외화 예탁금에 이자 더 주는 증권사들",
+          "source": "뉴스1",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008733412&office_id=421&code=039490&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 358500.0,
+      "entry_price": 358500.0,
+      "stop_price": 347745.0,
+      "target_price": 376425.0,
+      "r_value": 247365.0,
+      "position_size": 8245500.0,
+      "quantity": 23,
+      "r_multiplier": 1.0,
+      "trading_value": 74635039500,
+      "change_pct": 4.37,
+      "status": "pending",
+      "created_at": "2026-01-26T22:23:48.828817"
+    },
+    {
+      "stock_code": "128940",
+      "stock_name": "한미약품",
+      "market": "KOSPI",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:23:49.318192",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 1,
+        "chart": 2,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 10\n}\n]",
+        "total": 6
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "헤럴드경제",
+          "아이뉴스24",
+          "세계일보"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": false
+      },
+      "news_items": [
+        {
+          "title": "“포스트 위고비 선점”…K-비만약 개발 속도낸다",
+          "source": "헤럴드경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002590904&office_id=016&code=128940&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "비마약성 진통제 판 커진다?LG화학-비보존 '각축'",
+          "source": "아이뉴스24",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000999799&office_id=031&code=128940&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "글로벌 넘버3 삼성바이오… ‘K바이오’ 새 역사",
+          "source": "세계일보",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004100462&office_id=022&code=128940&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 481000.0,
+      "entry_price": 481000.0,
+      "stop_price": 466570.0,
+      "target_price": 505050.0,
+      "r_value": 245310.0,
+      "position_size": 8177000.0,
+      "quantity": 17,
+      "r_multiplier": 1.0,
+      "trading_value": 77557402000,
+      "change_pct": 3.33,
+      "status": "pending",
+      "created_at": "2026-01-26T22:23:49.318197"
+    },
+    {
+      "stock_code": "064350",
+      "stock_name": "현대로템",
+      "market": "KOSPI",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:23:54.679799",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 2,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 5\n}\n]",
+        "total": 6
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "파이낸셜뉴스",
+          "부산일보",
+          "파이낸셜뉴스"
+        ],
+        "is_new_high": false,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "현대로템, 폴란드 K2 2차 선수금 받았다… 거침없는 수출길",
+          "source": "파이낸셜뉴스",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005468450&office_id=014&code=064350&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "현대로템 ‘영업익 1조 시대’ 연다… K2 수출 잭팟에 최대 실적 랠...",
+          "source": "부산일보",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001364287&office_id=082&code=064350&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "[단독]현대로템, 폴란드 2차 선수금 21억달러 받았다",
+          "source": "파이낸셜뉴스",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005468244&office_id=014&code=064350&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 213000.0,
+      "entry_price": 213000.0,
+      "stop_price": 206610.0,
+      "target_price": 223650.0,
+      "r_value": 249210.0,
+      "position_size": 8307000.0,
+      "quantity": 39,
+      "r_multiplier": 1.0,
+      "trading_value": 152754867000,
+      "change_pct": 2.65,
+      "status": "pending",
+      "created_at": "2026-01-26T22:23:54.679808"
+    },
+    {
+      "stock_code": "035420",
+      "stock_name": "NAVER",
+      "market": "KOSPI",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:23:54.952856",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 3,
+        "chart": 1,
+        "candle": 0,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 4\n}\n]",
+        "total": 6
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "지디넷코리아",
+          "동아일보",
+          "헤럴드경제"
+        ],
+        "is_new_high": false,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "김선태 엔닷라이트 CTO \"생성형 AI, 3D 제품 설계 방식 바꾼다\"",
+          "source": "지디넷코리아",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002407757&office_id=092&code=035420&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "로봇 시범 도입한 車브레이크 제조사 “불량률 19.4% 감소”",
+          "source": "동아일보",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003692484&office_id=020&code=035420&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "설마 했는데…“600만명 ‘우르르’ 몰렸다” 난리더니, 국민 포털 ‘....",
+          "source": "헤럴드경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002591252&office_id=016&code=035420&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 272500.0,
+      "entry_price": 272500.0,
+      "stop_price": 264325.0,
+      "target_price": 286125.0,
+      "r_value": 245250.0,
+      "position_size": 8175000.0,
+      "quantity": 30,
+      "r_multiplier": 1.0,
+      "trading_value": 737565940000,
+      "change_pct": 2.44,
+      "status": "pending",
+      "created_at": "2026-01-26T22:23:54.952863"
+    },
+    {
+      "stock_code": "214370",
+      "stock_name": "케어젠",
+      "market": "KOSDAQ",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:24:15.659187",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 1,
+        "chart": 2,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 45\n}\n]",
+        "total": 6
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "한겨레",
+          "디지털데일리",
+          "전자신문"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": false
+      },
+      "news_items": [
+        {
+          "title": "정책 기대감에 ‘천스닥’…‘개인 단타시장’ 한계 넘으려면 실적 뒷...",
+          "source": "한겨레",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002788404&office_id=028&code=214370&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "코스닥 7% 급등, '천스닥' 돌파… 닷컴버블 이후 최고치",
+          "source": "디지털데일리",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0002216206&office_id=138&code=214370&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "5000피 다음은 '천스닥'…코스닥 7% 급등, 순환매 본격화",
+          "source": "전자신문",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003393355&office_id=030&code=214370&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 100800.0,
+      "entry_price": 100800.0,
+      "stop_price": 97776.0,
+      "target_price": 105840.0,
+      "r_value": 247968.0,
+      "position_size": 8265600.0,
+      "quantity": 82,
+      "r_multiplier": 1.0,
+      "trading_value": 64778918400,
+      "change_pct": 16.94,
+      "status": "pending",
+      "created_at": "2026-01-26T22:24:15.659193"
+    },
+    {
+      "stock_code": "263750",
+      "stock_name": "펄어비스",
+      "market": "KOSDAQ",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:24:21.844352",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 1,
+        "chart": 2,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 38\n}\n]",
+        "total": 6
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "한국경제",
+          "아시아경제",
+          "데일리안"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": false
+      },
+      "news_items": [
+        {
+          "title": "'한번만 더 믿어볼까?' 붉은사막 초읽기 들어간 펄어비스, 52주 신고...",
+          "source": "한국경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005242295&office_id=015&code=263750&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "[특징주]펄어비스 신작 '붉은사막' 기대감↑…52주 신고가",
+          "source": "아시아경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005711978&office_id=277&code=263750&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "펄어비스, 신작 ‘붉은사막’ 기대감에 52주 신고가 [특징주]",
+          "source": "데일리안",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003052135&office_id=119&code=263750&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 49800.0,
+      "entry_price": 49800.0,
+      "stop_price": 48306.0,
+      "target_price": 52290.0,
+      "r_value": 249498.0,
+      "position_size": 8316600.0,
+      "quantity": 167,
+      "r_multiplier": 1.0,
+      "trading_value": 83453196600,
+      "change_pct": 13.31,
+      "status": "pending",
+      "created_at": "2026-01-26T22:24:21.844366"
+    },
+    {
+      "stock_code": "108490",
+      "stock_name": "로보티즈",
+      "market": "KOSDAQ",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:24:21.850221",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 3,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 0,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 38\n}\n]",
+        "total": 6
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "매일경제",
+          "매일경제",
+          "뉴스1"
+        ],
+        "is_new_high": false,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "야수가 돼버린 개미들…코스닥지수 ETF에 하루 1조 베팅",
+          "source": "매일경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005627632&office_id=009&code=108490&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "룸서비스·택배 배달 … K로봇 日서 '서비스맨' 활약",
+          "source": "매일경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005627508&office_id=009&code=108490&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "'코스닥 축제' 코스피 대형주는 숨고르기…SK하이닉스 4%↓",
+          "source": "뉴스1",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0008735509&office_id=421&code=108490&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 280500.0,
+      "entry_price": 280500.0,
+      "stop_price": 272085.0,
+      "target_price": 294525.0,
+      "r_value": 244035.0,
+      "position_size": 8134500.0,
+      "quantity": 29,
+      "r_multiplier": 1.0,
+      "trading_value": 533176644000,
+      "change_pct": 12.88,
+      "status": "pending",
+      "created_at": "2026-01-26T22:24:21.850234"
+    },
+    {
+      "stock_code": "141080",
+      "stock_name": "리가켐바이오",
+      "market": "KOSDAQ",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:24:32.343980",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 2,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 27\n}\n]",
+        "total": 6
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "한국경제TV",
+          "세계일보",
+          "더팩트"
+        ],
+        "is_new_high": false,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "코스닥 25년만에 최고치 마감",
+          "source": "한국경제TV",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0001239299&office_id=215&code=141080&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "오천피 이어… 4년 만에 ‘천스닥’도 뚫었다",
+          "source": "세계일보",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004100635&office_id=022&code=141080&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "4년 만에 '천스닥' 복귀…코스닥 폭주에 사이드카까지 발동",
+          "source": "더팩트",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000466201&office_id=629&code=141080&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 185600.0,
+      "entry_price": 185600.0,
+      "stop_price": 180032.0,
+      "target_price": 194880.0,
+      "r_value": 244992.0,
+      "position_size": 8166400.0,
+      "quantity": 44,
+      "r_multiplier": 1.0,
+      "trading_value": 297446457600,
+      "change_pct": 11.87,
+      "status": "pending",
+      "created_at": "2026-01-26T22:24:32.343998"
+    },
+    {
+      "stock_code": "064760",
+      "stock_name": "티씨케이",
+      "market": "KOSDAQ",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:24:32.593674",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 1,
+        "chart": 2,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 27\n}\n]",
+        "total": 6
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "아시아경제",
+          "서울경제",
+          "세계일보"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": false
+      },
+      "news_items": [
+        {
+          "title": "[특징주]티씨케이, 낸드플래시 고단화·가동률 회복 기대감에 8%대 ↑",
+          "source": "아시아경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005711965&office_id=277&code=064760&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "오늘의 메모[1월 8일]",
+          "source": "서울경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004575771&office_id=011&code=064760&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "싸이노스, SiC 세정 기술로 티씨케이 ‘2025 BEST SUPPLI...",
+          "source": "세계일보",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004086699&office_id=022&code=064760&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 199900.0,
+      "entry_price": 199900.0,
+      "stop_price": 193903.0,
+      "target_price": 209895.0,
+      "r_value": 245877.0,
+      "position_size": 8195900.0,
+      "quantity": 41,
+      "r_multiplier": 1.0,
+      "trading_value": 38232074400,
+      "change_pct": 10.26,
+      "status": "pending",
+      "created_at": "2026-01-26T22:24:32.593681"
+    },
+    {
+      "stock_code": "087010",
+      "stock_name": "펩트론",
+      "market": "KOSDAQ",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:24:32.694041",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 2,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 27\n}\n]",
+        "total": 6
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "세계일보",
+          "더팩트",
+          "동아일보"
+        ],
+        "is_new_high": false,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": true
+      },
+      "news_items": [
+        {
+          "title": "오천피 이어… 4년 만에 ‘천스닥’도 뚫었다",
+          "source": "세계일보",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0004100635&office_id=022&code=087010&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "4년 만에 '천스닥' 복귀…코스닥 폭주에 사이드카까지 발동",
+          "source": "더팩트",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000466201&office_id=629&code=087010&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "4년만에 ‘천스닥’…코스닥 장중 1000선 돌파",
+          "source": "동아일보",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0003692306&office_id=020&code=087010&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 280000.0,
+      "entry_price": 280000.0,
+      "stop_price": 271600.0,
+      "target_price": 294000.0,
+      "r_value": 243600.0,
+      "position_size": 8120000.0,
+      "quantity": 29,
+      "r_multiplier": 1.0,
+      "trading_value": 174210960000,
+      "change_pct": 10.24,
+      "status": "pending",
+      "created_at": "2026-01-26T22:24:32.694053"
+    },
+    {
+      "stock_code": "068760",
+      "stock_name": "셀트리온제약",
+      "market": "KOSDAQ",
+      "sector": "",
+      "signal_date": "2026-01-26",
+      "signal_time": "2026-01-26T22:24:32.703481",
+      "grade": "A",
+      "score": {
+        "news": 0,
+        "volume": 1,
+        "chart": 2,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1,
+        "llm_reason": "Error: 429 You exceeded your current quota. Please migrate to Gemini 2.5 Flash Image (models/gemini-2.5-flash-image) for higher quota limits. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [links {\n  description: \"Learn more about Gemini API quotas\"\n  url: \"https://ai.google.dev/gemini-api/docs/rate-limits\"\n}\n, violations {\n  quota_metric: \"generativelanguage.googleapis.com/generate_requests_per_model\"\n  quota_id: \"GenerateRequestsPerMinutePerProjectPerModel\"\n  quota_dimensions {\n    key: \"model\"\n    value: \"gemini-2.0-flash-exp\"\n  }\n  quota_dimensions {\n    key: \"location\"\n    value: \"global\"\n  }\n  quota_value: 10\n}\n, retry_delay {\n  seconds: 27\n}\n]",
+        "total": 6
+      },
+      "checklist": {
+        "has_news": false,
+        "news_sources": [
+          "아시아경제",
+          "SBS Biz",
+          "한경비즈니스"
+        ],
+        "is_new_high": true,
+        "is_breakout": true,
+        "supply_positive": false,
+        "volume_surge": false
+      },
+      "news_items": [
+        {
+          "title": "4년만에 1000 돌파 코스닥…\"과거와는 달라\"(종합)",
+          "source": "아시아경제",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0005711769&office_id=277&code=068760&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "[이 시각 시황] '스테이블코인' 제도화 기대감…관련주 '훨훨'",
+          "source": "SBS Biz",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000488538&office_id=374&code=068760&page=1&sm=title_entity_id.basic"
+        },
+        {
+          "title": "지배구조의 새 표준이 된 ‘밸류업 이행력’…HD현대 2년 연속 1위 [...",
+          "source": "한경비즈니스",
+          "published_at": "",
+          "url": "https://finance.naver.com/item/news_read.naver?article_id=0000101481&office_id=050&code=068760&page=1&sm=title_entity_id.basic"
+        }
+      ],
+      "current_price": 70000.0,
+      "entry_price": 70000.0,
+      "stop_price": 67900.0,
+      "target_price": 73500.0,
+      "r_value": 249900.0,
+      "position_size": 8330000.0,
+      "quantity": 119,
+      "r_multiplier": 1.0,
+      "trading_value": 76360340000,
+      "change_pct": 10.24,
+      "status": "pending",
+      "created_at": "2026-01-26T22:24:32.703497"
+    }
+  ],
+  "by_grade": {
+    "S": 2,
+    "A": 28,
+    "B": 0,
+    "C": 0
+  },
+  "by_market": {
+    "KOSPI": 16,
+    "KOSDAQ": 14
+  },
+  "processing_time_ms": 86262.29548454285,
+  "updated_at": "2026-01-26T22:24:32.758589"
+}
