@@ -1,0 +1,77 @@
+{
+  "status": "YELLOW",
+  "score": 47,
+  "label": "NEUTRAL",
+  "reasons": [
+    "日経225 +0.05%",
+    "TOPIX -0.86%"
+  ],
+  "sectors": [
+    {
+      "name": "닛케이225",
+      "signal": "bullish",
+      "change_pct": 0.11,
+      "score": 50
+    },
+    {
+      "name": "TOPIX",
+      "signal": "bearish",
+      "change_pct": -0.86,
+      "score": 45
+    },
+    {
+      "name": "식품",
+      "signal": "bearish",
+      "change_pct": -1.89,
+      "score": 40
+    },
+    {
+      "name": "에너지",
+      "signal": "bullish",
+      "change_pct": 0.28,
+      "score": 51
+    },
+    {
+      "name": "건설",
+      "signal": "bearish",
+      "change_pct": -1.26,
+      "score": 43
+    },
+    {
+      "name": "소재",
+      "signal": "bearish",
+      "change_pct": -3.3,
+      "score": 33
+    },
+    {
+      "name": "의료",
+      "signal": "bearish",
+      "change_pct": -1.99,
+      "score": 40
+    },
+    {
+      "name": "은행",
+      "signal": "bullish",
+      "change_pct": 0.37,
+      "score": 51
+    },
+    {
+      "name": "운송",
+      "signal": "bearish",
+      "change_pct": -1.01,
+      "score": 44
+    },
+    {
+      "name": "전자",
+      "signal": "bearish",
+      "change_pct": -0.82,
+      "score": 45
+    }
+  ],
+  "metrics": {},
+  "nikkei_close": 53358.71,
+  "nikkei_change_pct": 0.05,
+  "topix_close": 2595.6,
+  "topix_change_pct": -0.86,
+  "updated_at": "2026-01-28T23:22:32.036521"
+}

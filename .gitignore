@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+build/
+dist/
+
+# Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Data
+data/*.json
+!data/market_gate_latest.json
+data/*.csv
+
+# OS
+.DS_Store
+Thumbs.db

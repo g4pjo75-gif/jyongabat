@@ -1,0 +1,1006 @@
+{
+  "generated_at": "2026-01-27T23:58:50.383194",
+  "filtered_count": 50,
+  "signals": [
+    {
+      "code": "4004",
+      "name": "レゾナックHD (Resonac)",
+      "sector": "化学",
+      "market": "TSE",
+      "close": 8576.0,
+      "change_pct": 6.95,
+      "grade": "B",
+      "score": 5,
+      "target_price": 8833,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 0,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "3994",
+      "name": "マネーフォワード (Money Forward)",
+      "sector": "情報・通信業",
+      "market": "TSE",
+      "close": 4229.0,
+      "change_pct": 2.8,
+      "grade": "B",
+      "score": 5,
+      "target_price": 4356,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 0,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "5801",
+      "name": "古河電工 (Furukawa Electric)",
+      "sector": "非鉄金属",
+      "market": "TSE",
+      "close": 12900.0,
+      "change_pct": 2.58,
+      "grade": "B",
+      "score": 5,
+      "target_price": 13287,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 0,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "2175",
+      "name": "SMS",
+      "sector": "サービス業",
+      "market": "TSE",
+      "close": 1706.0,
+      "change_pct": 1.73,
+      "grade": "B",
+      "score": 5,
+      "target_price": 1757,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 0,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "6857",
+      "name": "アドバンテスト (Advantest)",
+      "sector": "電気機器",
+      "market": "TSE",
+      "close": 24955.0,
+      "change_pct": 5.85,
+      "grade": "A",
+      "score": 7,
+      "target_price": 26203,
+      "score_detail": {
+        "news": 1,
+        "volume": 2,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "6146",
+      "name": "ディスコ (Disco)",
+      "sector": "機械",
+      "market": "TSE",
+      "close": 68930.0,
+      "change_pct": 3.65,
+      "grade": "A",
+      "score": 7,
+      "target_price": 72376,
+      "score_detail": {
+        "news": 1,
+        "volume": 2,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "6920",
+      "name": "レーザーテック (Lasertec)",
+      "sector": "電気機器",
+      "market": "TSE",
+      "close": 36900.0,
+      "change_pct": 3.36,
+      "grade": "A",
+      "score": 7,
+      "target_price": 38745,
+      "score_detail": {
+        "news": 1,
+        "volume": 2,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "8035",
+      "name": "東京エレクトロン (TEL)",
+      "sector": "電気機器",
+      "market": "TSE",
+      "close": 42130.0,
+      "change_pct": 2.53,
+      "grade": "A",
+      "score": 7,
+      "target_price": 44236,
+      "score_detail": {
+        "news": 1,
+        "volume": 2,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "5803",
+      "name": "フジクラ (Fujikura)",
+      "sector": "非鉄金属",
+      "market": "TSE",
+      "close": 18370.0,
+      "change_pct": 2.28,
+      "grade": "A",
+      "score": 7,
+      "target_price": 19288,
+      "score_detail": {
+        "news": 1,
+        "volume": 2,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "8306",
+      "name": "三菱UFJ (MUFG)",
+      "sector": "銀行業",
+      "market": "TSE",
+      "close": 2771.5,
+      "change_pct": 1.52,
+      "grade": "A",
+      "score": 7,
+      "target_price": 2910,
+      "score_detail": {
+        "news": 1,
+        "volume": 2,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "2206",
+      "name": "江崎グリコ (Ezaki Glico)",
+      "sector": "食料品",
+      "market": "TSE",
+      "close": 5904.0,
+      "change_pct": 8.77,
+      "grade": "A",
+      "score": 6,
+      "target_price": 6199,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "4186",
+      "name": "東京応化工業 (TOK)",
+      "sector": "化学",
+      "market": "TSE",
+      "close": 6818.0,
+      "change_pct": 4.91,
+      "grade": "A",
+      "score": 6,
+      "target_price": 7159,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "1332",
+      "name": "ニッスイ (Nissui)",
+      "sector": "水産・農林業",
+      "market": "TSE",
+      "close": 1303.5,
+      "change_pct": 4.45,
+      "grade": "A",
+      "score": 6,
+      "target_price": 1369,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "4401",
+      "name": "ADEKA",
+      "sector": "化学",
+      "market": "TSE",
+      "close": 4619.0,
+      "change_pct": 4.29,
+      "grade": "A",
+      "score": 6,
+      "target_price": 4850,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "5713",
+      "name": "住友金属鉱山 (Sumitomo Metal)",
+      "sector": "非鉄金属",
+      "market": "TSE",
+      "close": 8788.0,
+      "change_pct": 3.28,
+      "grade": "A",
+      "score": 6,
+      "target_price": 9227,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "8002",
+      "name": "丸紅 (Marubeni)",
+      "sector": "卸売業",
+      "market": "TSE",
+      "close": 5076.0,
+      "change_pct": 3.28,
+      "grade": "A",
+      "score": 6,
+      "target_price": 5330,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "6506",
+      "name": "安川電機 (Yaskawa)",
+      "sector": "電気機器",
+      "market": "TSE",
+      "close": 5085.0,
+      "change_pct": 3.04,
+      "grade": "A",
+      "score": 6,
+      "target_price": 5339,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "8053",
+      "name": "住友商事 (Sumitomo Corp)",
+      "sector": "卸売業",
+      "market": "TSE",
+      "close": 6230.0,
+      "change_pct": 2.84,
+      "grade": "A",
+      "score": 6,
+      "target_price": 6542,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "2768",
+      "name": "双日 (Sojitz)",
+      "sector": "卸売業",
+      "market": "TSE",
+      "close": 5707.0,
+      "change_pct": 2.75,
+      "grade": "A",
+      "score": 6,
+      "target_price": 5992,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "5214",
+      "name": "日本電気硝子 (NEG)",
+      "sector": "ガラス・土石製品",
+      "market": "TSE",
+      "close": 6700.0,
+      "change_pct": 2.54,
+      "grade": "A",
+      "score": 6,
+      "target_price": 7035,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "8058",
+      "name": "三菱商事 (Mitsubishi Corp)",
+      "sector": "卸売業",
+      "market": "TSE",
+      "close": 4008.0,
+      "change_pct": 2.51,
+      "grade": "A",
+      "score": 6,
+      "target_price": 4208,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "6504",
+      "name": "富士電機 (Fuji Elec)",
+      "sector": "電気機器",
+      "market": "TSE",
+      "close": 11545.0,
+      "change_pct": 2.44,
+      "grade": "A",
+      "score": 6,
+      "target_price": 12122,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "2607",
+      "name": "不二製油 (Fuji Oil)",
+      "sector": "食料品",
+      "market": "TSE",
+      "close": 4196.0,
+      "change_pct": 2.42,
+      "grade": "A",
+      "score": 6,
+      "target_price": 4406,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "6361",
+      "name": "荏原 (Ebara)",
+      "sector": "機械",
+      "market": "TSE",
+      "close": 4931.0,
+      "change_pct": 2.39,
+      "grade": "A",
+      "score": 6,
+      "target_price": 5178,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "5838",
+      "name": "楽天銀行 (Rakuten Bank)",
+      "sector": "銀行業",
+      "market": "TSE",
+      "close": 6878.0,
+      "change_pct": 2.31,
+      "grade": "A",
+      "score": 6,
+      "target_price": 7222,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "6301",
+      "name": "小松製作所 (Komatsu)",
+      "sector": "機械",
+      "market": "TSE",
+      "close": 5681.0,
+      "change_pct": 2.29,
+      "grade": "A",
+      "score": 6,
+      "target_price": 5965,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "8331",
+      "name": "千葉銀行 (Chiba)",
+      "sector": "銀行業",
+      "market": "TSE",
+      "close": 2049.0,
+      "change_pct": 2.25,
+      "grade": "A",
+      "score": 6,
+      "target_price": 2151,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "5333",
+      "name": "日本ガイシ (NGK Insulators)",
+      "sector": "ガラス・土石製品",
+      "market": "TSE",
+      "close": 3786.0,
+      "change_pct": 2.13,
+      "grade": "A",
+      "score": 6,
+      "target_price": 3975,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "5802",
+      "name": "住友電工 (Sumitomo Electric)",
+      "sector": "非鉄金属",
+      "market": "TSE",
+      "close": 6679.0,
+      "change_pct": 2.02,
+      "grade": "A",
+      "score": 6,
+      "target_price": 7013,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "6971",
+      "name": "京セラ (Kyocera)",
+      "sector": "電気機器",
+      "market": "TSE",
+      "close": 2323.0,
+      "change_pct": 2.0,
+      "grade": "A",
+      "score": 6,
+      "target_price": 2439,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "1861",
+      "name": "熊谷組 (Kumagai Gumi)",
+      "sector": "建設業",
+      "market": "TSE",
+      "close": 1794.0,
+      "change_pct": 1.87,
+      "grade": "A",
+      "score": 6,
+      "target_price": 1884,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "4385",
+      "name": "メルカリ (Mercari)",
+      "sector": "情報・通信業",
+      "market": "TSE",
+      "close": 3319.0,
+      "change_pct": 1.81,
+      "grade": "A",
+      "score": 6,
+      "target_price": 3485,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "7731",
+      "name": "ニコン (Nikon)",
+      "sector": "精密機器",
+      "market": "TSE",
+      "close": 1950.0,
+      "change_pct": 1.75,
+      "grade": "A",
+      "score": 6,
+      "target_price": 2048,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "6098",
+      "name": "リクルート (Recruit)",
+      "sector": "サービス業",
+      "market": "TSE",
+      "close": 8510.0,
+      "change_pct": 1.7,
+      "grade": "A",
+      "score": 6,
+      "target_price": 8936,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "5471",
+      "name": "大同特殊鋼 (Daido)",
+      "sector": "鉄鋼",
+      "market": "TSE",
+      "close": 2010.0,
+      "change_pct": 1.69,
+      "grade": "A",
+      "score": 6,
+      "target_price": 2110,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "4528",
+      "name": "小野薬品 (Ono)",
+      "sector": "医薬品",
+      "market": "TSE",
+      "close": 2323.0,
+      "change_pct": 1.6,
+      "grade": "A",
+      "score": 6,
+      "target_price": 2439,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "4182",
+      "name": "三菱ガス化学 (MGC)",
+      "sector": "化学",
+      "market": "TSE",
+      "close": 3100.0,
+      "change_pct": 1.57,
+      "grade": "A",
+      "score": 6,
+      "target_price": 3255,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "7912",
+      "name": "大日本印刷 (DNP)",
+      "sector": "その他製品",
+      "market": "TSE",
+      "close": 2818.5,
+      "change_pct": 1.57,
+      "grade": "A",
+      "score": 6,
+      "target_price": 2959,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "1812",
+      "name": "鹿島建設 (Kajima)",
+      "sector": "建設業",
+      "market": "TSE",
+      "close": 6460.0,
+      "change_pct": 1.54,
+      "grade": "A",
+      "score": 6,
+      "target_price": 6783,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "6981",
+      "name": "村田製作所 (Murata)",
+      "sector": "電気機器",
+      "market": "TSE",
+      "close": 3228.0,
+      "change_pct": 1.54,
+      "grade": "A",
+      "score": 6,
+      "target_price": 3389,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "6268",
+      "name": "ナブテスコ (Nabtesco)",
+      "sector": "機械",
+      "market": "TSE",
+      "close": 4063.0,
+      "change_pct": 1.5,
+      "grade": "A",
+      "score": 6,
+      "target_price": 4266,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "6723",
+      "name": "ルネサス (Renesas)",
+      "sector": "電気機器",
+      "market": "TSE",
+      "close": 2390.0,
+      "change_pct": 1.49,
+      "grade": "A",
+      "score": 6,
+      "target_price": 2510,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "4205",
+      "name": "日本ゼオン (Zeon)",
+      "sector": "化学",
+      "market": "TSE",
+      "close": 1956.5,
+      "change_pct": 1.45,
+      "grade": "A",
+      "score": 6,
+      "target_price": 2054,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "8015",
+      "name": "豊田通商 (Toyota Tsusho)",
+      "sector": "卸売業",
+      "market": "TSE",
+      "close": 5657.0,
+      "change_pct": 1.45,
+      "grade": "A",
+      "score": 6,
+      "target_price": 5940,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "5332",
+      "name": "TOTO",
+      "sector": "ガラス・土石製品",
+      "market": "TSE",
+      "close": 5212.0,
+      "change_pct": 1.36,
+      "grade": "A",
+      "score": 6,
+      "target_price": 5473,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "8334",
+      "name": "群馬銀行 (Gunma)",
+      "sector": "銀行業",
+      "market": "TSE",
+      "close": 1901.0,
+      "change_pct": 1.36,
+      "grade": "A",
+      "score": 6,
+      "target_price": 1996,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "6701",
+      "name": "NEC",
+      "sector": "電気機器",
+      "market": "TSE",
+      "close": 5687.0,
+      "change_pct": 1.35,
+      "grade": "A",
+      "score": 6,
+      "target_price": 5971,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "6963",
+      "name": "ローム (Rohm)",
+      "sector": "電気機器",
+      "market": "TSE",
+      "close": 2734.5,
+      "change_pct": 1.33,
+      "grade": "A",
+      "score": 6,
+      "target_price": 2871,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "3064",
+      "name": "MonotaRO",
+      "sector": "小売業",
+      "market": "TSE",
+      "close": 2262.5,
+      "change_pct": 1.3,
+      "grade": "A",
+      "score": 6,
+      "target_price": 2376,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    },
+    {
+      "code": "7181",
+      "name": "かんぽ生命 (Japan Post Ins)",
+      "sector": "保険業",
+      "market": "TSE",
+      "close": 4704.0,
+      "change_pct": 1.25,
+      "grade": "A",
+      "score": 6,
+      "target_price": 4939,
+      "score_detail": {
+        "news": 1,
+        "volume": 1,
+        "chart": 1,
+        "candle": 1,
+        "consolidation": 1,
+        "supply": 1
+      },
+      "news": []
+    }
+  ]
+}

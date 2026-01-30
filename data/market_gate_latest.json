@@ -1,0 +1,49 @@
+{
+  "status": "YELLOW",
+  "score": 44,
+  "label": "NEUTRAL",
+  "reasons": [
+    "KOSDAQ 약세"
+  ],
+  "sectors": [
+    {
+      "name": "반도체",
+      "signal": "bullish",
+      "change_pct": 3.95,
+      "score": 89
+    },
+    {
+      "name": "2차전지",
+      "signal": "bearish",
+      "change_pct": -4.48,
+      "score": 6
+    },
+    {
+      "name": "자동차",
+      "signal": "bearish",
+      "change_pct": -1.86,
+      "score": 32
+    },
+    {
+      "name": "헬스케어",
+      "signal": "bearish",
+      "change_pct": -2.99,
+      "score": 21
+    },
+    {
+      "name": "IT",
+      "signal": "bullish",
+      "change_pct": 2.83,
+      "score": 78
+    }
+  ],
+  "metrics": {
+    "kospi_change": 0.06,
+    "kosdaq_change": -1.29
+  },
+  "kospi_close": 5224.36,
+  "kospi_change_pct": 0.06,
+  "kosdaq_close": 1149.44,
+  "kosdaq_change_pct": -1.29,
+  "updated_at": "2026-01-30T23:39:43.171392"
+}

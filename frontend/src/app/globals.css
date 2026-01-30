@@ -1,0 +1,283 @@
+@import "tailwindcss";
+
+/* Deep Navy / Premium Dark Mode Palette */
+:root {
+  --bg-page: #0b0e14;
+  --bg-surface: #131720;
+  --bg-elevated: #1a202c;
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+  --accent-blue: #3b82f6;
+  --accent-emerald: #10b981;
+  --accent-rose: #f43f5e;
+  --accent-amber: #fbbf24;
+  --border-primary: rgba(255, 255, 255, 0.08);
+  --border-secondary: rgba(255, 255, 255, 0.04);
+  --sidebar-width: 260px;
+}
+
+/* Global Styles */
+html,
+body {
+  background-color: var(--bg-page);
+  color: var(--text-primary);
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", "Roboto",
+    sans-serif;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+/* Glassmorphism Card-Widget */
+.glass-card {
+  background-color: rgba(19, 23, 32, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-primary);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px -1px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.glass-card:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Grade Badge Colors */
+.grade-s {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
+  color: white;
+}
+.grade-a {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+.grade-b {
+  background: linear-gradient(135deg, #2bcbba 0%, #0fb9b1 100%);
+  color: white;
+}
+.grade-c {
+  background-color: var(--bg-elevated);
+  color: var(--text-secondary);
+}
+
+/* Signal Score Bar */
+.score-bar {
+  height: 6px;
+  background-color: var(--bg-elevated);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.score-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Gate Status Colors */
+.gate-green {
+  color: var(--accent-green);
+}
+.gate-yellow {
+  color: var(--accent-orange);
+}
+.gate-red {
+  color: var(--accent-red);
+}
+
+/* Animations */
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 5px var(--accent-green);
+  }
+  50% {
+    box-shadow: 0 0 20px var(--accent-green);
+  }
+}
+
+.pulse-glow-green {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Status Badge */
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Table Styles */
+.data-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.data-table th {
+  background-color: var(--bg-elevated);
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.data-table td {
+  padding: 12px;
+  border-bottom: 1px solid var(--border-secondary);
+}
+
+.data-table tr:hover td {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: var(--bg-surface);
+  border-radius: 20px;
+  padding: 24px;
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow: auto;
+  border: 1px solid var(--border-primary);
+}
+
+/* Layout Wrappers */
+.main-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: var(--sidebar-width);
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: var(--bg-surface);
+  border-right: 1px solid var(--border-primary);
+  z-index: 100;
+  padding: 24px 16px;
+}
+
+.content-area {
+  margin-left: var(--sidebar-width);
+  flex: 1;
+  padding: 32px;
+}
+
+/* Metric Progress Bars (V2 Style) */
+.metric-container {
+  margin-bottom: 8px;
+}
+
+.metric-bar {
+  height: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.metric-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Price Grid Widget */
+.price-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+.price-item {
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.02);
+}
+
+.price-label {
+  font-size: 10px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.price-value {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* AI Analysis Block */
+.ai-reason-block {
+  background-color: rgba(59, 130, 246, 0.05);
+  border-left: 3px solid var(--accent-blue);
+  padding: 12px;
+  border-radius: 0 8px 8px 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #e2e8f0;
+}
+
+/* Sidebar Nav Item */
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 12px;
+  color: var(--text-secondary);
+  transition: all 0.2s;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.sidebar-link:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+}
+
+.sidebar-link.active {
+  background-color: rgba(59, 130, 246, 0.1);
+  color: var(--accent-blue);
+}
+
