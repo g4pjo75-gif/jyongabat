@@ -15,7 +15,7 @@ export default function JPVCPSignalsPage() {
     const [signalDate, setSignalDate] = useState<string>('');
     const [availableDates, setAvailableDates] = useState<string[]>([]);
     const [selectedDate, setSelectedDate] = useState<string>('');
-    const [chartModal, setChartModal] = useState<{isOpen: boolean; symbol: string; name: string}>({
+    const [chartModal, setChartModal] = useState<{ isOpen: boolean; symbol: string; name: string }>({
         isOpen: false, symbol: '', name: ''
     });
 
@@ -63,14 +63,14 @@ export default function JPVCPSignalsPage() {
         try {
             const res = await jpAPI.getVCPLatest();
             const rawSignals = res.signals || [];
-            
+
             // 포착가 설정
             setSignals(rawSignals.map(s => ({
                 ...s,
                 entry_price: s.current_price,
                 return_pct: 0
             })));
-            
+
             if (res.generated_at) {
                 const d = new Date(res.generated_at);
                 setSignalDate(d.toLocaleDateString('ko-KR', { month: 'short', day: 'numeric' }));
@@ -129,7 +129,7 @@ export default function JPVCPSignalsPage() {
         setRunning(true);
         try {
             await jpAPI.runVCPScreener();
-            
+
             const pollInterval = setInterval(async () => {
                 try {
                     const status = await jpAPI.getScreenerStatus();
@@ -192,7 +192,7 @@ export default function JPVCPSignalsPage() {
                     </h2>
                     <p className="text-gray-400 text-lg">니케이 225/400 상위 종목 대상 VCP + 수급 분석</p>
                 </div>
-                
+
                 <button
                     onClick={() => setShowGuide(true)}
                     className="flex items-center gap-2 px-4 py-2.5 bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-secondary)] hover:text-white hover:border-rose-500/50 rounded-lg transition-all"
@@ -232,9 +232,8 @@ export default function JPVCPSignalsPage() {
                 <button
                     disabled={running || selectedDate !== ''}
                     onClick={handleRunScreener}
-                    className={`glass-card p-4 text-center transition-all cursor-pointer ${
-                        running || selectedDate !== '' ? 'bg-white/10 opacity-50' : 'hover:bg-white/5'
-                    }`}
+                    className={`glass-card p-4 text-center transition-all cursor-pointer ${running || selectedDate !== '' ? 'bg-white/10 opacity-50' : 'hover:bg-white/5'
+                        }`}
                     title={selectedDate !== '' ? '최신 결과를 선택해야 스크리너 실행 가능' : ''}
                 >
                     {running ? (
@@ -272,7 +271,7 @@ export default function JPVCPSignalsPage() {
                         ) : (
                             signals.map((signal, idx) => (
                                 <tr key={`${signal.code}-${idx}`} className="hover:bg-white/5">
-                                    <td 
+                                    <td
                                         className="cursor-pointer hover:bg-white/10 transition-colors"
                                         onClick={() => setChartModal({
                                             isOpen: true,
@@ -314,7 +313,7 @@ export default function JPVCPSignalsPage() {
                                     <td className="font-mono font-bold text-white">
                                         {signal.current_price?.toLocaleString()}
                                     </td>
-                                    <td className={`font-mono font-bold ${ (signal.return_pct || 0) >= 0 ? 'text-emerald-400' : 'text-rose-400'}`}>
+                                    <td className={`font-mono font-bold ${(signal.return_pct || 0) >= 0 ? 'text-emerald-400' : 'text-rose-400'}`}>
                                         {(signal.return_pct || 0) >= 0 ? '+' : ''}{(signal.return_pct || 0).toFixed(2)}%
                                     </td>
                                 </tr>
@@ -346,10 +345,10 @@ export default function JPVCPSignalsPage() {
 
             {/* Chart Modal */}
             {chartModal.isOpen && (
-                <JPChartModal 
-                    symbol={chartModal.symbol} 
+                <JPChartModal
+                    symbol={chartModal.symbol}
                     name={chartModal.name}
-                    onClose={() => setChartModal({isOpen: false, symbol: '', name: ''})}
+                    onClose={() => setChartModal({ isOpen: false, symbol: '', name: '' })}
                 />
             )}
 
@@ -362,7 +361,7 @@ export default function JPVCPSignalsPage() {
                         title: "🎯 분석 대상",
                         content: (
                             <p className="text-sm text-slate-300">
-                                니케이 225 및 니케이 400 &apos;종가베팅 스크리너&apos;에서 이미 기술적 우위가 확인된 **상위 60개 종목**을 분석 대상으로 합니다.
+                                니케이 225 및 니케이 400 &apos;종가베팅 스크리너&apos;에서 이미 기술적 우위가 확인된 **상위 60개 종목**을 분석 대상으로 합니다. (단, **당일 날짜**의 데이터만 분석 대상에 포함됩니다)
                             </p>
                         )
                     },

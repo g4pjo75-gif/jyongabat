@@ -109,19 +109,37 @@ class JPVCPScreener:
     def _load_target_stocks(self) -> List[Dict]:
         targets = []
         codes_seen = set()
+        today = date.today()
+        
         for type_key in ['n225', 'n400']:
             path = os.path.join(self.data_dir, f'jongga_v2_{type_key}_latest.json')
             if os.path.exists(path):
                 try:
                     with open(path, 'r', encoding='utf-8') as f:
                         data = json.load(f)
+                        
+                        # Date Validation
+                        gen_at_str = data.get('generated_at')
+                        if gen_at_str:
+                            try:
+                                gen_date = datetime.fromisoformat(gen_at_str).date()
+                                if gen_date != today:
+                                    print(f"[JP VCP] Skipping {type_key} data: Outdated ({gen_date} vs {today})")
+                                    continue
+                            except:
+                                pass # Ignore parse errors, proceed if needed or skip? (Safest to skip if unsure)
+                        
                         signals = data.get('signals', [])
+                        print(f"[JP VCP] Loaded {len(signals)} signals from {type_key} ({today})")
+                        
                         for s in signals:
                             code = s['code']
                             if code not in codes_seen:
                                 targets.append(s)
                                 codes_seen.add(code)
-                except: continue
+                except Exception as e:
+                    print(f"[JP VCP] Error loading {path}: {e}")
+                    continue
         return targets
 
     def _analyze_vcp_df(self, df: pd.DataFrame) -> Dict:

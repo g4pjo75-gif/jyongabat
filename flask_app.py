@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Flask 애플리케이션 진입점
 종가베팅 V2 API 서버
@@ -6,6 +7,12 @@ Flask 애플리케이션 진입점
 
 import os
 import sys
+import io
+
+# Windows 콘솔 인코딩 문제 해결 (cp932/cp949 -> UTF-8)
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 # 현재 디렉토리를 패키지 루트로 설정
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

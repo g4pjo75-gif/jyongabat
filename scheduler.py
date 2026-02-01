@@ -151,15 +151,18 @@ class MarketScheduler:
             "updated_at": self.last_update.isoformat()
         }
     
-    def start_scheduler(self, interval_minutes: int = 30):
+    def start_scheduler(self, interval_minutes: int = 30, run_immediately: bool = True):
         """스케줄러 시작"""
         print(f"\n⏰ 스케줄러 시작 - {interval_minutes}분 간격")
         print("   Ctrl+C로 종료하세요.\n")
         
         self.is_running = True
         
-        # 즉시 1회 실행
-        self.run_full_update()
+        # 즉시 1회 실행 여부 확인
+        if run_immediately:
+            self.run_full_update()
+        else:
+            print("⏭️ 초기 업데이트를 건너뜁니다. 첫 업데이트는 {}분 뒤에 실행됩니다.".format(interval_minutes))
         
         while self.is_running:
             try:
@@ -207,6 +210,7 @@ def main():
     parser = argparse.ArgumentParser(description='KR Market Scheduler')
     parser.add_argument('--now', action='store_true', help='즉시 1회 실행')
     parser.add_argument('--interval', type=int, default=30, help='실행 간격 (분)')
+    parser.add_argument('--no-init', action='store_true', help='시작 시 즉시 분석 수행 안 함')
     parser.add_argument('--vcp', action='store_true', help='VCP 스캔만 실행')
     parser.add_argument('--jongga', action='store_true', help='종가베팅 V2만 실행')
     parser.add_argument('--gate', action='store_true', help='Market Gate만 실행')
@@ -228,7 +232,7 @@ def main():
         result = scheduler.run_full_update()
         print(json.dumps(result, ensure_ascii=False, indent=2))
     else:
-        scheduler.start_scheduler(interval_minutes=args.interval)
+        scheduler.start_scheduler(interval_minutes=args.interval, run_immediately=not args.no_init)
 
 
 if __name__ == "__main__":

@@ -24,7 +24,7 @@ class JPXCollector:
         self._session = None
     
     async def __aenter__(self):
-        timeout = aiohttp.ClientTimeout(total=600)
+        timeout = aiohttp.ClientTimeout(total=30)  # 30초로 단축
         self._session = aiohttp.ClientSession(timeout=timeout)
         return self
     
@@ -49,20 +49,24 @@ class JPXCollector:
             code_map = {s[0]: s for s in stocks_to_check}  # "6501.T": (ticker, name, sector)
             tickers = list(code_map.keys())
             
-            # 3. yfinance 배치 다운로드 (청크 단위: 100개)
-            # 400개 한 번에 하면 가끔 누락될 수 있어 청크 나눔
-            chunk_size = 100
+            print(f"[JPX] Starting batch download for {len(tickers)} tickers", flush=True)
+            
+            # 3. yfinance 배치 다운로드 (청크 단위: 50개로 줄임)
+            chunk_size = 50  # 100 -> 50으로 줄여서 안정성 향상
             for i in range(0, len(tickers), chunk_size):
                 chunk = tickers[i:i+chunk_size]
                 
                 try:
-                    # threads=True로 병렬 다운로드
-                    df = yf.download(chunk, period="5d", progress=False, threads=True, group_by='ticker')
+                    print(f"[JPX] Downloading chunk {i//chunk_size + 1}/{(len(tickers)-1)//chunk_size + 1} ({len(chunk)} tickers)", flush=True)
+                    
+                    # threads=True로 병렬 다운로드 (속도 향상)
+                    df = yf.download(chunk, period="5d", progress=False, threads=True, group_by='ticker', timeout=10)
                     
                     if df.empty:
+                        print(f"[JPX] Chunk {i//chunk_size + 1} returned empty", flush=True)
                         continue
-
-                    # DataFrame 구조 처리
+                    
+                    print(f"[JPX] Chunk {i//chunk_size + 1} downloaded successfully")                    # DataFrame 구조 처리
                     # MultiIndex인 경우와 SingleIndex인 경우 처리
                     is_multi = isinstance(df.columns, pd.MultiIndex)
                     
@@ -232,7 +236,7 @@ class YahooJapanNewsCollector:
         self._session = None
     
     async def __aenter__(self):
-        timeout = aiohttp.ClientTimeout(total=600)
+        timeout = aiohttp.ClientTimeout(total=30)  # 30초로 단축
         self._session = aiohttp.ClientSession(timeout=timeout)
         return self
     

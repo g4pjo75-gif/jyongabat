@@ -48,14 +48,17 @@ body {
   background: linear-gradient(135deg, #ff6b6b 0%, #ff8e53 100%);
   color: white;
 }
+
 .grade-a {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
 }
+
 .grade-b {
   background: linear-gradient(135deg, #2bcbba 0%, #0fb9b1 100%);
   color: white;
 }
+
 .grade-c {
   background-color: var(--bg-elevated);
   color: var(--text-secondary);
@@ -77,8 +80,8 @@ body {
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 6px;
+  height: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -86,31 +89,35 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 /* Gate Status Colors */
 .gate-green {
   color: var(--accent-green);
 }
+
 .gate-yellow {
   color: var(--accent-orange);
 }
+
 .gate-red {
   color: var(--accent-red);
 }
 
 /* Animations */
 @keyframes pulse-glow {
+
   0%,
   100% {
     box-shadow: 0 0 5px var(--accent-green);
   }
+
   50% {
     box-shadow: 0 0 20px var(--accent-green);
   }
@@ -193,7 +200,51 @@ body {
   background-color: var(--bg-surface);
   border-right: 1px solid var(--border-primary);
   z-index: 100;
-  padding: 24px 16px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.sidebar-header {
+  flex-shrink: 0;
+  padding: 24px 16px 8px;
+}
+
+.sidebar-content {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 0;
+  padding: 8px 16px;
+  /* Ensure this container is the one scrolling */
+}
+
+.sidebar-footer {
+  flex-shrink: 0;
+  padding: 16px;
+  border-top: 1px solid var(--border-secondary);
+}
+
+/* Sidebar Specific Scrollbar */
+.sidebar-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar-content::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+.sidebar-content:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(59, 130, 246, 0.5);
 }
 
 .content-area {
@@ -280,4 +331,3 @@ body {
   background-color: rgba(59, 130, 246, 0.1);
   color: var(--accent-blue);
 }
-

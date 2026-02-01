@@ -51,16 +51,24 @@ def create_app(config=None):
     @app.route('/', defaults={'path': ''})
     @app.route('/<path:path>')
     def serve(path):
+        from flask import make_response
         full_path = os.path.normpath(os.path.join(app.static_folder, path))
         
         if path != "" and os.path.exists(full_path) and os.path.isfile(full_path):
-            return send_from_directory(app.static_folder, path)
-        
-        # Next.js export 결과물은 .html 확장자를 가질 수 있음
+            response = make_response(send_from_directory(app.static_folder, path))
         elif path != "" and os.path.exists(full_path + '.html'):
-            return send_from_directory(app.static_folder, path + '.html')
-            
+            response = make_response(send_from_directory(app.static_folder, path + '.html'))
         else:
-            return send_from_directory(app.static_folder, 'index.html')
+            response = make_response(send_from_directory(app.static_folder, 'index.html'))
+        
+        # HTML 파일에 UTF-8 charset 지정
+        if path.endswith('.html') or path == '' or not '.' in path.split('/')[-1]:
+            response.headers['Content-Type'] = 'text/html; charset=utf-8'
+        
+        # 모든 정적 파일에 캐시 비활성화 헤더 추가
+        response.headers['Cache-Control'] = 'no-store, no-cache, must-revalidate, max-age=0'
+        response.headers['Pragma'] = 'no-cache'
+        response.headers['Expires'] = '0'
+        return response
     
     return app

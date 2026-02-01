@@ -15,8 +15,8 @@ openai==1.12.0
 # === Web Utilities ===
 requests==2.31.0
 beautifulsoup4==4.12.2
-lxml==5.1.0
-aiohttp==3.9.1
+lxml
+aiohttp
 
 # === Utilities ===
 python-dotenv==1.0.0

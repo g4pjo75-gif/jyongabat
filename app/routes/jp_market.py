@@ -48,6 +48,11 @@ class JPScreenerManager:
 
 
 jp_screener_manager = JPScreenerManager()
+# Force reset on import (ensures clean state after server restart)
+jp_screener_manager.is_running = False
+jp_screener_manager.current_task = None
+jp_screener_manager.start_time = None
+jp_screener_manager.message = ""
 
 
 def get_jp_data_dir():
@@ -73,6 +78,13 @@ def get_screener_status():
         "message": jp_screener_manager.message,
         "startTime": jp_screener_manager.start_time.isoformat() if jp_screener_manager.start_time else None
     })
+
+
+@jp_bp.route('/screener/reset', methods=['POST'])
+def reset_screener_status():
+    """스크리너 상태 강제 리셋"""
+    jp_screener_manager.stop("Reset by user")
+    return jsonify({"status": "ok", "message": "Screener status reset"})
 
 
 # === Market Gate ===
