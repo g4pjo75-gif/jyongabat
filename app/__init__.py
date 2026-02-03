@@ -30,19 +30,24 @@ def create_app(config=None):
     if 'turso.io' in db_url:
         import urllib.parse
         # Turso/LibSQL URL format: sqlite+libsql://...
-        # We need to construct: sqlite+libsql://default:{token}@{host}?secure=true
         
-        # Extract host from input URL (handles libsql://host or https://host)
-        host = db_url.split('://')[-1]
+        # Ensure correct scheme for SQLAlchemy
+        # Case 1: libsql://... -> sqlite+libsql://...
+        # Case 2: https://... -> sqlite+libsql://...
         
+        if db_url.startswith('libsql://'):
+            db_url = db_url.replace('libsql://', 'sqlite+libsql://')
+        elif db_url.startswith('https://'):
+            db_url = db_url.replace('https://', 'sqlite+libsql://')
+            
         if auth_token:
+            # Token needs to be URL encoded safely
             encoded_token = urllib.parse.quote_plus(auth_token)
-            # Use 'default' as username (standard for Turso if not specified)
-            app.config['SQLALCHEMY_DATABASE_URI'] = f"sqlite+libsql://default:{encoded_token}@{host}?secure=true"
+            
+            # Append as query param
+            separator = '&' if '?' in db_url else '?'
+            app.config['SQLALCHEMY_DATABASE_URI'] = f"{db_url}{separator}authToken={encoded_token}&secure=true"
         else:
-            # Fallback: Just change protocol if token is assumed to be in URL or not needed
-            if db_url.startswith('libsql://'):
-                db_url = db_url.replace('libsql://', 'sqlite+libsql://')
             app.config['SQLALCHEMY_DATABASE_URI'] = db_url
     else:
         app.config['SQLALCHEMY_DATABASE_URI'] = db_url
