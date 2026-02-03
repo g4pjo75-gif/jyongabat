@@ -266,7 +266,7 @@ class YahooJapanNewsCollector:
             
             news_list = []
             
-            async with self._session.get(news_url, headers=headers) as response:
+            async with self._session.get(news_url, headers=headers, timeout=5) as response:
                 if response.status != 200:
                     # 뉴스 페이지 접근 실패 시 헤드라인 뉴스로 폴백
                     return await self._get_headline_news(stock_name, limit)

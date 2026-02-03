@@ -454,17 +454,27 @@ def run_jongga_v2():
                                 if not charts or len(charts) < 20:
                                     return None
                                 
-                                # 뉴스 데이터
-                                news = await news_collector.get_stock_news(
-                                    code=stock.code, 
-                                    limit=3, 
-                                    stock_name=stock.name
-                                )
-                                
                                 # 수급 데이터 (Zero for JP currently)
                                 supply = await collector.get_supply_data(stock.code)
                                 
-                                # 점수 계산 (Technical included)
+                                # 1차 점수 계산 (뉴스 없이) - 성능 최적화
+                                prelim_score, _ = scorer.calculate(stock, charts, [], supply)
+                                
+                                news = []
+                                # 1차 점수가 양호한 경우에만 뉴스 수집 (네트워크 병목 해소)
+                                # 기준: 4.0점 이상 (B급 진입 가능성)
+                                if prelim_score.total >= 4.0:
+                                    try:
+                                        # 뉴스 데이터 (Timeout 적용됨)
+                                        news = await news_collector.get_stock_news(
+                                            code=stock.code, 
+                                            limit=3, 
+                                            stock_name=stock.name
+                                        )
+                                    except Exception:
+                                        news = []
+                                
+                                # 최종 점수 계산 (뉴스 포함/미포함)
                                 score, checklist = scorer.calculate(stock, charts, news, supply)
                                 grade = scorer.determine_grade(stock, score)
                                 
