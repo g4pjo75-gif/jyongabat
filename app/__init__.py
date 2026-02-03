@@ -2,8 +2,9 @@
 Flask 앱 팩토리
 """
 
-from flask import Flask, send_from_directory
 import os
+from flask import Flask, send_from_directory
+from app.database import db
 
 
 def create_app(config=None):
@@ -21,6 +22,23 @@ def create_app(config=None):
     
     if config:
         app.config.update(config)
+    
+    # Database Config
+    db_url = os.environ.get('TURSO_DATABASE_URL', 'sqlite:///local.db')
+    auth_token = os.environ.get('TURSO_AUTH_TOKEN')
+    
+    if 'turso.io' in db_url:
+        # Turso/LibSQL URL format: sqlite+libsql://...
+        if db_url.startswith('libsql://'):
+            db_url = db_url.replace('libsql://', 'sqlite+libsql://')
+            
+        app.config['SQLALCHEMY_DATABASE_URI'] = f"{db_url}?authToken={auth_token}&secure=true" if auth_token else db_url
+    else:
+        app.config['SQLALCHEMY_DATABASE_URI'] = db_url
+
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+    db.init_app(app)
     
     # 블루프린트 등록
     from app.routes.kr_market import kr_bp

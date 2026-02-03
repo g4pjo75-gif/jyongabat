@@ -1,0 +1,15 @@
+{
+  "gate": "YELLOW",
+  "score": 50,
+  "label": "NEUTRAL",
+  "reasons": [
+    "Error: Too Many Requests. Rate limited. Try after a while."
+  ],
+  "sectors": [],
+  "metrics": {},
+  "kospi_close": 0,
+  "kospi_change_pct": 0,
+  "kosdaq_close": 0,
+  "kosdaq_change_pct": 0,
+  "updated_at": "2026-02-01T12:18:18.760793"
+}

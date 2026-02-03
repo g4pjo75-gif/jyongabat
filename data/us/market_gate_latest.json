@@ -1,85 +1,85 @@
 {
   "status": "YELLOW",
-  "score": 50,
+  "score": 46,
   "label": "NEUTRAL",
   "reasons": [
-    "NASDAQ +0.17%",
-    "S&P 500 -0.01%",
-    "DOW +0.02%"
+    "NASDAQ -0.94%",
+    "S&P 500 -0.43%",
+    "DOW -0.36%"
   ],
   "sectors": [
     {
       "name": "IT/기술주",
-      "signal": "bullish",
-      "change_pct": 0.8,
-      "score": 54
+      "signal": "bearish",
+      "change_pct": -2.04,
+      "score": 39
     },
     {
       "name": "헬스케어",
-      "signal": "bearish",
-      "change_pct": -0.73,
-      "score": 46
+      "signal": "bullish",
+      "change_pct": 0.6,
+      "score": 53
     },
     {
       "name": "금융",
+      "signal": "bearish",
+      "change_pct": -0.21,
+      "score": 48
+    },
+    {
+      "name": "임의소비재",
       "signal": "bearish",
       "change_pct": -0.02,
       "score": 49
     },
     {
-      "name": "임의소비재",
-      "signal": "bearish",
-      "change_pct": -0.75,
-      "score": 46
-    },
-    {
       "name": "필수소비재",
-      "signal": "bearish",
-      "change_pct": -1.01,
-      "score": 44
+      "signal": "bullish",
+      "change_pct": 1.68,
+      "score": 58
     },
     {
       "name": "에너지",
       "signal": "bullish",
-      "change_pct": 0.77,
-      "score": 53
+      "change_pct": 1.07,
+      "score": 55
     },
     {
       "name": "산업재",
       "signal": "bearish",
-      "change_pct": -0.56,
-      "score": 47
+      "change_pct": -0.25,
+      "score": 48
     },
     {
       "name": "소재",
       "signal": "bearish",
-      "change_pct": -0.06,
-      "score": 49
+      "change_pct": -1.46,
+      "score": 42
     },
     {
       "name": "부동산",
-      "signal": "bearish",
-      "change_pct": -0.97,
-      "score": 45
+      "signal": "bullish",
+      "change_pct": 0.15,
+      "score": 50
     },
     {
       "name": "통신서비스",
-      "signal": "bearish",
-      "change_pct": -0.13,
-      "score": 49
+      "signal": "bullish",
+      "change_pct": 0.24,
+      "score": 51
     },
     {
       "name": "유틸리티",
       "signal": "bearish",
-      "change_pct": -0.23,
-      "score": 48
+      "change_pct": -0.18,
+      "score": 49
     }
   ],
-  "nasdaq_close": 23857.45,
-  "nasdaq_change_pct": 0.17,
-  "sp500_close": 6978.03,
-  "sp500_change_pct": -0.01,
-  "dow_close": 49015.6,
-  "dow_change_pct": 0.02,
-  "updated_at": "2026-01-29T23:26:31.750926"
+  "nasdaq_close": 23461.82,
+  "nasdaq_change_pct": -0.94,
+  "sp500_close": 6939.03,
+  "sp500_change_pct": -0.43,
+  "dow_close": 48892.47,
+  "dow_change_pct": -0.36,
+  "updated_at": "2026-02-01T15:02:06.900038"
 }

@@ -24,3 +24,8 @@ tqdm==4.66.1
 
 # === Visualization ===
 plotly==5.18.0
+
+# === Database ===
+flask-sqlalchemy>=3.1.1
+sqlalchemy>=2.0.25
+sqlalchemy-libsql>=0.1.0
