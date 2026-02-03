@@ -533,6 +533,13 @@ def run_jongga_v2():
                                         signals_n400.append(res)
                             
                             await asyncio.sleep(0.5)
+                            
+                            # Explicit Memory Cleanup
+                            del results
+                            del tasks
+                            del batch
+                            import gc
+                            gc.collect()
                 
                 return signals_n225, signals_n400, len(filtered_gainers)
             
