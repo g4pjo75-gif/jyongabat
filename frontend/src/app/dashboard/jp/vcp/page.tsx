@@ -136,8 +136,14 @@ export default function JPVCPSignalsPage() {
                     if (!status.isRunning) {
                         clearInterval(pollInterval);
                         setRunning(false);
-                        alert(status.message || 'JP VCP 스캔 완료');
-                        await loadSignals();
+
+                        // Check if message indicates error
+                        if (status.message && status.message.startsWith('Error:')) {
+                            alert(`스크리닝 실패: ${status.message}`);
+                        } else {
+                            alert(status.message || 'JP VCP 스캔 완료');
+                            await loadSignals();
+                        }
                     }
                 } catch (e) {
                     console.error('Polling error:', e);
@@ -147,7 +153,7 @@ export default function JPVCPSignalsPage() {
             }, 3000);
         } catch (error) {
             console.error('Screening error:', error);
-            alert('스크리너 실행 중 오류가 발생했습니다.');
+            alert('스크리너 실행 요청 실패');
             setRunning(false);
         }
     };

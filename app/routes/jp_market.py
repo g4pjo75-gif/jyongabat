@@ -577,8 +577,14 @@ def run_jongga_v2():
             jp_screener_manager.stop(f"Completed. {', '.join(msg_parts)}")
             
         except Exception as e:
-            print(f"Error running JP screener: {e}")
-            traceback.print_exc()
+            error_msg = f"Error running JP screener: {str(e)}\n{traceback.format_exc()}"
+            print(error_msg)
+            # Log to file for persistence
+            try:
+                with open('jp_screener_error.log', 'w') as f:
+                    f.write(error_msg)
+            except:
+                pass
             jp_screener_manager.stop(f"Error: {str(e)}")
 
     thread = threading.Thread(target=_run_task, args=(run_type,))

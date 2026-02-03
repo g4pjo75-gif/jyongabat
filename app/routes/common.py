@@ -4,9 +4,46 @@
 import os
 import json
 from datetime import datetime
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify, request, current_app
+from sqlalchemy import text
+from app.database import db
 
 common_bp = Blueprint('common', __name__)
+
+@common_bp.route('/db-check')
+def db_check():
+    """데이터베이스 연결 상태 확인"""
+    status = {
+        "connected": False,
+        "db_url": "Unknown",
+        "error": None
+    }
+    
+    try:
+        # DB URL 마스킹
+        db_uri = current_app.config.get('SQLALCHEMY_DATABASE_URI', '')
+        if '@' in db_uri:
+            # Mask password/token if present
+            prefix = db_uri.split('@')[0]
+            # Show scheme
+            scheme = db_uri.split('://')[0]
+            host = db_uri.split('@')[1].split('?')[0] if '@' in db_uri else 'hidden'
+            status['db_url'] = f"{scheme}://***@{host}"
+        else:
+            status['db_url'] = db_uri
+            
+        # 연결 테스트
+        with db.session.begin():
+            db.session.execute(text('SELECT 1'))
+        
+        status["connected"] = True
+        status["message"] = "Database connection successful"
+        
+    except Exception as e:
+        status["error"] = str(e)
+        status["message"] = "Database connection failed"
+        
+    return jsonify(status)
 
 
 @common_bp.route('/portfolio')
