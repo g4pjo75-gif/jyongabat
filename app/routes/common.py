@@ -22,6 +22,10 @@ def db_check():
     try:
         # DB URL 마스킹
         db_uri = current_app.config.get('SQLALCHEMY_DATABASE_URI', '')
+        token_env = os.environ.get('TURSO_AUTH_TOKEN')
+        status['token_present'] = bool(token_env)
+        status['token_length'] = len(token_env) if token_env else 0
+        
         if '@' in db_uri:
             # Mask password/token if present
             prefix = db_uri.split('@')[0]
